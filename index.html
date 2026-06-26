@@ -2885,8 +2885,8 @@ window.inserirEmoji = function(emoji) {
         input.focus();
     }
 };
-    const SUPABASE_URL = 'https://lcvapocbftptwwotyqtf.supabase.co';
-    const SUPABASE_ANON_KEY = 'sb_publishable_hv2YTzOMW2gUS8_7hw7HNA_HZt672sn';
+    const SUPABASE_URL = 'https://kwyundsukkigtlmohilw.supabase.co';
+    const SUPABASE_ANON_KEY = 'sb_publishable_RlFCRGpMTKG8oVff9sxGcQ_ZvPKN3wy';
     let currentUser = null;
     let usuarios = [];
     let metas = [];
@@ -5880,6 +5880,11 @@ function atualizarEvolucaoOperador(dadosPorDia, totalMetas) {
     `;
     
     document.getElementById('visaoSetorContent').innerHTML = html;
+}
+
+function carregarEliteDashboard() {
+    // O Elite tem a mesma visão que o Operador
+    carregarOperadorDashboard();
 }
 
 // ============================================
